@@ -1,19 +1,18 @@
 ---
-schemaVersion: 2
-id: radio-recordings
-entityType: live-event
-name: Radio Recordings
-eventType: event
-headliners:
-  - kaf
-contentStatus: published
-locale: en
-summary: Broadcast recordings and public events for regular radio shows such as
-  Panpaka-KAFi (R).
-dateRange:
-  start: "2022-04-02"
+"schemaVersion": 2
+"id": "radio-recordings"
+"entityType": "live-event"
+"name": "Public Radio Recordings"
+"eventType": "event"
+"headliners": []
+"contentStatus": "stub"
+"locale": "en"
+"summary": "An activity-category placeholder. A specific occurrence, date and participants remain unverified."
+"tags":
+  - "classification-map-placeholder"
+  - "identity-unverified"
+"seo":
+  "noindex": true
 ---
 
-## Overview
-
-Recording sessions and special event tapings for regular on-air radio programs hosted by KAF on InterFM.
+No specific occurrence of this activity category has been verified. An organizer announcement identifying an actual event is needed before dates, participants and venues can be recorded.

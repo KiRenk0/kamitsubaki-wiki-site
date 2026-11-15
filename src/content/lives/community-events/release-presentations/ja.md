@@ -1,18 +1,18 @@
 ---
-schemaVersion: 2
-id: release-presentations
-entityType: live-event
-name: リリース記念発表会
-eventType: event
-headliners:
-  - kaf
-contentStatus: published
-locale: ja
-summary: アルバム発売や重大告知の際に配信される公式記念番組。
-dateRange:
-  start: "2019-09-11"
+"schemaVersion": 2
+"id": "release-presentations"
+"entityType": "live-event"
+"name": "リリース記念発表会"
+"eventType": "event"
+"headliners": []
+"contentStatus": "stub"
+"locale": "ja"
+"summary": "活動分類の仮項目。個別の開催回・日付・参加者は未確認です。"
+"tags":
+  - "classification-map-placeholder"
+  - "identity-unverified"
+"seo":
+  "noindex": true
 ---
 
-## 概要
-
-フルアルバムのリリース時に制作陣とアーティストが出演し、全曲解説やMV解禁を行う特別配信。
+この活動分類について、確認済みの個別開催情報はまだありません。主催者の告知で開催回を特定したうえで、日付・参加者・会場を記録してください。

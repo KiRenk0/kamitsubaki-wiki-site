@@ -1,8 +1,9 @@
 {
-  "entities": 1837,
+  "entities": 1841,
   "events": 518,
   "gallery": 0,
-  "preserved": 5259,
+  "preserved": 5253,
+  "amended": 6,
   "errors": [],
   "warnings": [
     "event-9ef423e1a43faa97: pending ja translation",

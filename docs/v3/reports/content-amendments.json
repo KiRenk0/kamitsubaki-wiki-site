@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "src/content/isotopes/rime/zh.md",
+      "originalHash": "7c2117729ac91e2b7b471e2de5adcaac0223cfccb9d353289498361c97ff5665",
+      "revisedHash": "5d8670040c8627e416525ca9bc4a909f1ccbd428ecdaa5b45c6d62ac5c844d7d",
+      "reviewedAt": "2026-11-15",
+      "reason": "Replace unsupported product, naming and licensing claims with documented CeVIO AI and VOICEPEAK products; distinguish inferred design attribution from explicit credit.",
+      "sourceUrls": [
+        "https://musical-isotope.kamitsubaki.jp/product/rime/",
+        "https://musical-isotope.kamitsubaki.jp/information/290/",
+        "https://musical-isotope.kamitsubaki.jp/product/rimevoicepeak/",
+        "https://musical-isotope.kamitsubaki.jp/information/956/",
+        "https://x.com/PALOW_/status/1584881922420842496"
+      ]
+    },
+    {
+      "path": "src/content/units/valis/zh.md",
+      "originalHash": "f6674e78d5ef1f2ea8b98e4bca7a06f585d7e9ea464b8a6205882d43aec83cb0",
+      "revisedHash": "f928758145c49d945b06ddb3428399cc3b6c532e50d706c54885e29b328f5816",
+      "reviewedAt": "2026-11-15",
+      "reason": "Correct current group and member activity, retirement and agency descriptions using dated management and producer announcements; retain historical group material.",
+      "sourceUrls": [
+        "https://kamitsubaki.jp/news/2024/03/08/3215/",
+        "https://twitter.com/SOUGHT_VALIS/status/2019697641416987076",
+        "https://note.com/futashika/n/n4fdca2f7b788"
+      ]
+    },
+    {
+      "path": "src/content/isotopes/rime/ja.md",
+      "originalHash": "a178c50a34b897ed6ab2651e0830429f423dea35d3a6d2ced80a10f77e7fbc09",
+      "revisedHash": "455433011626f49851d6a58b1d5c25b6b6cede9d9c115d4baac14ea046221eec",
+      "reviewedAt": "2026-11-15",
+      "reason": "Replace unsupported product, naming and licensing claims with documented CeVIO AI and VOICEPEAK products; distinguish inferred design attribution from explicit credit.",
+      "sourceUrls": [
+        "https://musical-isotope.kamitsubaki.jp/product/rime/",
+        "https://musical-isotope.kamitsubaki.jp/information/290/",
+        "https://musical-isotope.kamitsubaki.jp/product/rimevoicepeak/",
+        "https://musical-isotope.kamitsubaki.jp/information/956/",
+        "https://x.com/PALOW_/status/1584881922420842496"
+      ]
+    },
+    {
+      "path": "src/content/units/valis/ja.md",
+      "originalHash": "ab24eae1ec8cf339e6f495df817d5d5a8de7963321d06d65eafeea945889d587",
+      "revisedHash": "82c74dfc15ebcc66e651469af149707fe991e1a33b9b4e7b8c902c66cfdd823e",
+      "reviewedAt": "2026-11-15",
+      "reason": "Correct current group and member activity, retirement and agency descriptions using dated management and producer announcements; retain historical group material.",
+      "sourceUrls": [
+        "https://kamitsubaki.jp/news/2024/03/08/3215/",
+        "https://twitter.com/SOUGHT_VALIS/status/2019697641416987076",
+        "https://note.com/futashika/n/n4fdca2f7b788"
+      ]
+    },
+    {
+      "path": "src/content/isotopes/rime/en.md",
+      "originalHash": "432fb2a01bac1d5c375bd5c7c22bd9faa7e321c720643bbfed2be56d711959e5",
+      "revisedHash": "95e2ebcc47c993233e9f68968d64f750562bb26e4039bcec2a79a87047a9c796",
+      "reviewedAt": "2026-11-15",
+      "reason": "Replace unsupported product, naming and licensing claims with documented CeVIO AI and VOICEPEAK products; distinguish inferred design attribution from explicit credit.",
+      "sourceUrls": [
+        "https://musical-isotope.kamitsubaki.jp/product/rime/",
+        "https://musical-isotope.kamitsubaki.jp/information/290/",
+        "https://musical-isotope.kamitsubaki.jp/product/rimevoicepeak/",
+        "https://musical-isotope.kamitsubaki.jp/information/956/",
+        "https://x.com/PALOW_/status/1584881922420842496"
+      ]
+    },
+    {
+      "path": "src/content/units/valis/en.md",
+      "originalHash": "c9c3364ce917e1b328ab2cd331ec764717404f8ca3f602af78946e478178fd7d",
+      "revisedHash": "102450a66174e172740c2a6369e12033495bc08decdf5e78caae8ad9c2f3602c",
+      "reviewedAt": "2026-11-15",
+      "reason": "Correct current group and member activity, retirement and agency descriptions using dated management and producer announcements; retain historical group material.",
+      "sourceUrls": [
+        "https://kamitsubaki.jp/news/2024/03/08/3215/",
+        "https://twitter.com/SOUGHT_VALIS/status/2019697641416987076",
+        "https://note.com/futashika/n/n4fdca2f7b788"
+      ]
+    }
+  ]
+}

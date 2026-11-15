@@ -102,7 +102,7 @@ export function musicVersions(snapshot,id) {
   return {ids:[...seen],edges};
 }
 export function setlistStatistics(snapshot,ids=null) {
-  const lives=snapshot.entities.filter(e=>e.type==='live-event' && ['oneman-live','joint-live','xr-sinka-live'].includes(e.facts.eventType) && (ids===null || ids.includes(e.id)));
+  const lives=snapshot.entities.filter(e=>e.type==='live-event' && (['oneman-live','joint-live','xr-sinka-live'].includes(e.facts.eventType) || e.facts.setlist?.length) && (ids===null || ids.includes(e.id)));
   const withSetlist=lives.filter(e=>e.facts.setlist?.length);
   const songs=new Map();
   for(const live of withSetlist)for(const [position,track] of live.facts.setlist.entries()){

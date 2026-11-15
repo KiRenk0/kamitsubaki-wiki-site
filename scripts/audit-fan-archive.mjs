@@ -16,7 +16,7 @@ const report={version:1,snapshot:snapshot.snapshot,modules:archiveModules,
   sources:{entities:count(snapshot.entities,row=>row.facts.sources?.length),fieldClaims:snapshot.evidence.length},
   visuals:{withDates:snapshot.entities.flatMap(row=>row.facts.visualHistory || []).filter(row=>row.date).length},
  },
- unresolved:{relations:snapshot.issues.filter(row=>row.kind==='unresolved-relation'),factDrift:snapshot.issues.filter(row=>row.kind==='fact-drift'),identities:snapshot.issues.filter(row=>row.kind==='unverified-record')},
+ unresolved:{relations:snapshot.issues.filter(row=>row.kind==='unresolved-relation'),factDrift:snapshot.issues.filter(row=>row.kind==='fact-drift'),identities:snapshot.issues.filter(row=>row.kind==='unverified-record'),fieldClaims:snapshot.evidence.filter(row=>row.status!=='reviewed').map(({id,entityId,field,status,sourceIds,note})=>({id,entityId,field,status,sourceIds,note}))},
  acceptance:{local:'See the dated QA report for commands and actual results.',online:'Not assessed by this read-only inventory. Record environment and normal-account validation separately.',device:'Real camera, media provider and physical-device acceptance remain separate from fixtures.'},
 };
 console.log(JSON.stringify(report,null,2));

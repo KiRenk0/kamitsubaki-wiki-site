@@ -53,6 +53,7 @@ const searchable=['music','radio','statistics','visual','museum','challenges','l
   {module==='today' && <><p>{c.todayNote}</p><form data-today-form class="archive-filters"><label>{c.monthDay}<input name="monthDay" type="text" pattern="[0-9]{2}-[0-9]{2}" placeholder="10-13" required/></label><button>{c.apply}</button></form><section class="archive-space"><h2>{c.mystery}</h2><div data-mystery-clues></div><form data-mystery-form class="archive-filters"><label>{c.guess}<input name="guess" maxlength="200" required/></label><button>{c.confirm}</button><button type="button" data-mystery-reveal>{c.reveal}</button></form><div data-mystery-answer aria-live="polite"></div></section></>}
   <p data-archive-status role="status" aria-live="polite">{c.loading}</p>
   <ArchiveCompletionTools module={module} copy={c} snapshot={snapshot}/>
+  {module==='physical' && <h2>{c.physicalCatalogue}</h2>}
   <div data-archive-results class="archive-result-list">{['music','radio','physical'].includes(module) && initial.map(row=><article class="archive-row"><div><small>{entityLabel(row.type,locale)} · {row.date || c.unknown}</small><h2><a href={row.path}>{row.title}</a></h2><p>{row.summary}</p></div></article>)}</div>
   <button type="button" data-archive-more hidden>{c.more}</button>
   <aside data-archive-detail class="archive-detail" hidden tabindex="-1"></aside>

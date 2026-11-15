@@ -1,18 +1,18 @@
 ---
-schemaVersion: 2
-id: radio-recordings
-entityType: live-event
-name: 冠ラジオ番組公開収録
-eventType: event
-headliners:
-  - kaf
-contentStatus: published
-locale: ja
-summary: 花譜のレギュラーラジオ『ぱんぱかカフぃ(R)』などの公開収録および特別番組。
-dateRange:
-  start: "2022-04-02"
+"schemaVersion": 2
+"id": "radio-recordings"
+"entityType": "live-event"
+"name": "ラジオ公開収録"
+"eventType": "event"
+"headliners": []
+"contentStatus": "stub"
+"locale": "ja"
+"summary": "活動分類の仮項目。個別の開催回・日付・参加者は未確認です。"
+"tags":
+  - "classification-map-placeholder"
+  - "identity-unverified"
+"seo":
+  "noindex": true
 ---
 
-## 概要
-
-InterFM等で放送された花譜の冠ラジオ番組『ぱんぱかカフぃ(R)』の収録およびリスナー交流アーカイブ。
+この活動分類について、確認済みの個別開催情報はまだありません。主催者の告知で開催回を特定したうえで、日付・参加者・会場を記録してください。

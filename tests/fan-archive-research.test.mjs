@@ -29,6 +29,15 @@ test('historical month/day requires actual day precision and handles leap days w
  for(const invalid of ['02-30','13-01','01','00-10'])assert.deepEqual(archiveOnThisDay(snapshot,invalid),[]);
  assert.deepEqual(archiveOnThisDay(snapshot,'01-01'),[]);
 });
+
+test('documented musical sets within general events enter setlist statistics without treating every event as a concert',()=>{
+ const data=archiveFixture();
+ data.entities.push({id:'festival-slot',type:'live-event',date:'2025-06-07',facts:{eventType:'event',setlist:[{songId:'song-a',number:'01'},{songId:'song-a',number:'EN1'}]}},
+  {id:'unrecorded-event',type:'live-event',date:'2025-06-08',facts:{eventType:'event'}});
+ const stats=setlistStatistics(data,['festival-slot','unrecorded-event']);
+ assert.equal(stats.total,1);assert.equal(stats.covered,1);assert.equal(stats.songs[0].eventCount,1);
+ assert.deepEqual(stats.songs[0].occurrences.map(row=>row.number),['01','EN1']);
+});
 test('version cycles terminate; entity comparison uses shared recorded connections',()=>{
  assert.deepEqual(new Set(musicVersions(snapshot,'song-a').ids),new Set(['song-a','remix']));
  assert.deepEqual(compareArchive(snapshot,['song-a','song-b']).common.map(e=>e.id),['maker']);

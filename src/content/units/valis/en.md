@@ -50,13 +50,27 @@ roles:
 lifecycle:
   activity: "hiatus"
   startedAt: "2020-05-15"
-summary: "A five-member virtual girls group that travels between virtual and
-  real worlds through both avatar and origin performance forms."
+summary: "A virtual girl group performing in avatar and origin forms. Group activity has been on
+  indefinite hiatus since December 2025; members’ individual activity is recorded separately."
 sources:
   - id: official-valis-hiatus
     title: VALISに関する重要なお知らせ
     url: https://kamitsubaki.jp/news/2025/06/11/7583/
     type: official
+  - id: nina-retirement-2024
+    title: "VALIS: NINA graduation and end of artist activity (2024-03-08)"
+    url: https://kamitsubaki.jp/news/2024/03/08/3215/
+    type: official
+  - id: valis-solo-announcement-2026
+    title: VALIS management announcement via director SOUGHT (2026-02-06)
+    url: https://twitter.com/SOUGHT_VALIS/status/2019697641416987076
+    type: official
+  - id: piedpiper-reorganization-2026
+    title: "PIEDPIPER: KAMITSUBAKI FES 26 and studio reorganization"
+    url: https://note.com/futashika/n/n4fdca2f7b788
+    type: official
+    publisher: PIEDPIPER
+    publishedAt: "2026-09-05"
 evidence:
   - id: group-hiatus
     field: lifecycle.activity
@@ -64,14 +78,23 @@ evidence:
       - official-valis-hiatus
     checkedAt: "2026-11-15"
     status: reviewed
-    note: The group is on indefinite hiatus following the December 2025 final live.
-      Individual member activity is not established by this notice.
+    note: The group is on indefinite hiatus following the December 2025 final live. Individual member
+      activity is not established by this notice.
+  - id: group-and-members-distinction
+    field: affiliations
+    sourceIds:
+      - piedpiper-reorganization-2026
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The producer states that VALIS remains affiliated with KAMITSUBAKI while members’ solo
+      activity uses freelance and THINKR agency arrangements. Do not apply one status to every
+      member.
 ---
 ## Overview
 
-VALIS is a six-member virtual girls group under [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio), consisting of CHINO, MYU, NEFFY, NINA, RARA, and VITTE. Built around the concept of traveling between virtual and real worlds, the group distinguishes itself through a dual-format approach: members perform in both avatar form and their "origin" real-person form, creating a layered identity that bridges the two realms.
+**VALIS** performs in avatar and origin forms. Its early lineup comprised CHINO, MYU, NEFFY, NINA, RARA and VITTE. NINA graduated and ended artist activity on 8 March 2024; the group entered indefinite hiatus after its December 2025 final live.
 
-Character visuals were designed by illustrator Nekosuke, blending a distinctly feminine aesthetic with futuristic sensibilities. As one of the more prominent groups within the [SINSEKAI RECORD](/en/projects/archive/sinsekai-studio) framework, VALIS maintains a high level of activity across both recorded music and live performance, regularly hosting dedicated ONE-MAN LIVE events.
+In February 2026 management announced personal activity for CHINO, NEFFY, RARA and VITTE, and MYU’s project graduation on 13 February. The September producer statement distinguishes the group’s KAMITSUBAKI affiliation from freelance individual activity under THINKR agency contracts. The group descriptions below are historical.
 
 ## Role and Creative Position
 

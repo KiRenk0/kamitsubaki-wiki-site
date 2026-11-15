@@ -1,71 +1,149 @@
 ---
-schemaVersion: 2
-id: "fukakai-san-kyou"
-entityType: "live-event"
-name: "花譜 3rd ONE-MAN LIVE「不可解参（狂）」"
-romanizedName: "KAF 3rd ONE-MAN LIVE Fukakai San Kyou"
-eventType: "oneman-live"
-dateRange:
-  start: "2022-08-24"
-venue:
-  name: "日本武道馆"
-  city: "东京"
-  country: "日本"
-  isVirtual: false
-headliners:
+"schemaVersion": 2
+"id": "fukakai-san-kyou"
+"entityType": "live-event"
+"name": "花譜 3rd ONE-MAN LIVE「不可解参（狂）」"
+"romanizedName": "KAF 3rd ONE-MAN LIVE Fukakai San Kyou"
+"eventType": "oneman-live"
+"dateRange":
+  "start": "2022-08-24"
+"venue":
+  "name": "日本武道馆"
+  "city": "东京"
+  "country": "JP"
+  "isVirtual": false
+  "sourceIds":
+    - "official-fukakai-iii-bd"
+    - "nippon-budokan-access"
+"headliners":
   - "kaf"
-guestPerformers:
+"guestPerformers":
   - "vwp"
-organizer: "kamitsubaki-studio"
-contentStatus: published
-locale: "zh"
-summary: "史上首位登上日本武道馆举办个人单独公演的虚拟歌手现场，改写数字演艺历史的里程碑之夜。"
-sources:
-  - id: official-fukakai-iii-bd
-    title: 3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website
-    url: https://kaf.kamitsubaki.jp/discography/20230601/213/
-    type: official
-    publisher: KAMITSUBAKI STUDIO
-setlistStatus: partial
-setlist:
-  - number: BD 03
-    songId: kaf-majo
-  - number: BD 04
-    songId: kaf-originals-track-1688520970
-  - number: BD 05
-    songId: kaf-yoru-ga-furiyamu-mae-ni-songs
-  - number: BD 08
-    songId: kaf-originals-track-1688520966
-  - number: BD 13
-    songId: shi-kaf
-  - number: BD 43
-    songId: kaf-kako-wo-kurau
-  - number: BD 47
-    songId: kaf-originals-track-1688351157
-liveInfo:
-  reports:
-    - title: 3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website
-      url: https://kaf.kamitsubaki.jp/discography/20230601/213/
-      sourceIds:
-        - official-fukakai-iii-bd
-evidence:
-  - id: recording-excerpt
-    field: setlist
-    sourceIds:
-      - official-fukakai-iii-bd
-    checkedAt: "2026-10-13"
-    status: reviewed
-    note: Partial excerpt from the official recording’s main program; BD track numbers are retained. This excludes MC, interludes and bonus tracks and does not claim a complete live setlist.
+  - "valis"
+"organizer": "kamitsubaki-studio"
+"contentStatus": "published"
+"locale": "zh"
+"summary": "花譜于 2022 年 8 月 24 日在日本武道馆举行的第三次个人专场。"
+"sources":
+  - "id": "official-fukakai-iii-bd"
+    "title": "3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website"
+    "url": "https://kaf.kamitsubaki.jp/discography/20230601/213/"
+    "type": "official"
+    "publisher": "KAMITSUBAKI STUDIO"
+  - "id": "nippon-budokan-access"
+    "title": "日本武道館: access and official venue map"
+    "url": "https://www.nipponbudokan.or.jp/about/access"
+    "type": "official"
+    "publisher": "日本武道館"
+"setlistStatus": "partial"
+"setlist":
+  - "number": "BD 03"
+    "title": "魔女"
+    "songId": "kaf-majo"
+  - "number": "BD 04"
+    "title": "畢生よ"
+    "songId": "kaf-originals-track-1688520970"
+  - "number": "BD 05"
+    "title": "夜が降り止む前に"
+    "songId": "kaf-yoru-ga-furiyamu-mae-ni-songs"
+  - "number": "BD 07"
+    "title": "ニヒル"
+    "songId": "kaf-originals-track-1674704371"
+  - "number": "BD 08"
+    "title": "アンサー"
+    "songId": "kaf-originals-track-1688520966"
+  - "number": "BD 09"
+    "title": "命に嫌われている"
+  - "number": "BD 11"
+    "title": "私論理"
+    "songId": "kaf-originals-track-1688520967"
+  - "number": "BD 12"
+    "title": "戸惑いテレパシー"
+    "songId": "kaf-originals-track-1688524198"
+  - "number": "BD 13"
+    "title": "糸"
+    "songId": "shi-kaf"
+  - "number": "BD 17"
+    "title": "化孵化 feat.可不"
+  - "number": "BD 18"
+    "title": "流線形メーデー feat.可不"
+    "songId": "kaf-suites-track-1689187750"
+  - "number": "BD 21"
+    "title": "飛翔するmeme with たなか"
+    "songId": "kaf-suites-track-1688514096"
+  - "number": "BD 22"
+    "title": "イマジナリーフレンド with 大森靖子"
+    "songId": "kaf-suites-track-1688348617"
+  - "number": "BD 24"
+    "title": "裏表ガール"
+    "songId": "kaf-originals-track-1674704376"
+  - "number": "BD 26"
+    "title": "K.A.F DISCOTHEQUE"
+  - "number": "BD 27"
+    "title": "ダンスが僕の恋人 with MIKEY(from東京ゲゲゲイ)"
+  - "number": "BD 29"
+    "title": "CAN-VERSE with ORESAMA"
+    "songId": "kaf-suites-track-1688524557"
+  - "number": "BD 30"
+    "title": "神聖革命バーチャルリアリティー with VALIS"
+  - "number": "BD 34"
+    "title": "深淵 with ヰ世界情緒"
+  - "number": "BD 35"
+    "title": "魔的 with 理芽"
+  - "number": "BD 36"
+    "title": "残火 with 春猿火"
+  - "number": "BD 37"
+    "title": "歯車 with 幸祜"
+  - "number": "BD 39"
+    "title": "共鳴 -V.W.P-"
+  - "number": "BD 43"
+    "title": "過去を喰らう"
+    "songId": "kaf-kako-wo-kurau"
+  - "number": "BD 44"
+    "title": "海に化ける"
+    "songId": "kaf-originals-track-1687477846"
+  - "number": "BD 45"
+    "title": "人を気取る"
+    "songId": "kaf-originals-track-1674704367"
+  - "number": "BD 47"
+    "title": "不可解"
+    "songId": "kaf-originals-track-1688351157"
+  - "number": "BD 48"
+    "title": "未観測"
+    "songId": "kaf-originals-track-1674704369"
+  - "number": "BD 49"
+    "title": "狂感覚"
+    "songId": "kaf-originals-track-1674704377"
+  - "number": "BD 51"
+    "title": "マイディア"
+"liveInfo":
+  "reports":
+    - "title": "3rd ONE-MAN LIVE「不可解参(狂)」Blu-ray · 花譜 Official Website"
+      "url": "https://kaf.kamitsubaki.jp/discography/20230601/213/"
+      "sourceIds":
+        - "official-fukakai-iii-bd"
+  "access":
+    - "title": "日本武道馆官方交通与地图"
+      "url": "https://www.nipponbudokan.or.jp/about/access"
+      "sourceIds":
+        - "nippon-budokan-access"
+"evidence":
+  - "id": "recording-excerpt"
+    "field": "setlist"
+    "sourceIds":
+      - "official-fukakai-iii-bd"
+    "checkedAt": "2026-11-15"
+    "status": "reviewed"
+    "note": "Thirty musical chapters from the official Blu-ray main programme, retaining BD chapter
+      numbers and named guests. MC, interludes and the separately labelled bonus section are
+      excluded. The edited recording does not prove a complete original live set. Ambiguous work
+      versions and different live recordings remain unlinked."
 ---
 
-## 演出现场概述
+## 演出概述
 
-**花譜 3rd ONE-MAN LIVE「不可解参（狂）」**是虚拟歌手 [花譜（KAF）](/zh/artists/vwp/kaf) 于 2022 年 8 月 24 日在**日本武道馆**举办的第三次个人专场公演。
+花譜 3rd ONE-MAN LIVE「不可解参（狂）」于 2022 年 8 月 24 日在日本武道馆举行。官方 Blu-ray 收录本篇、另列的 BONUS TRACK、制作花絮及纪录片。
 
----
+## 曲目范围
 
-## 历史意义与舞台纪实
-
-- **虚拟演艺的历史性突破**：花譜以此公演成为**人类演艺史上首位登上日本传统音乐殿堂“日本武道馆”举办单人专场演唱会的虚拟歌手**，将虚拟演艺从网络屏幕推向了主流最高殿堂；
-- **全息舞美革新**：在武道馆八角形剧场中心，通过 360 度悬浮全息巨幕、实体乐队交响与实时粒子光效联动，完成长达近 3 小时的史诗级演出；
-- **全魔女助阵共振**：[V.W.P](/zh/artists/vwp/vwp) 全员、Kizuna AI 等作为特别嘉宾登台共鸣合唱，被权威日媒评选为虚拟演艺发展的关键分水岭。
+本页按官方 Blu-ray 本篇目录整理 30 个音乐章节，保留 BD 章节号及嘉宾名称。MC、过场及另列的特典段落不在本次摘录内，因此仍标记为部分曲目，不能由剪辑版录像推定原始现场完整顺序。不能确定对应作品版本的曲目仅显示标题。

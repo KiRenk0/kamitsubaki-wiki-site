@@ -51,4 +51,6 @@ articles/{articleCategory}/{id}/
 
 迁移清单：`docs/v3/reports/content-layout.json`，记录每个文件的原路径、目标路径与完整文件 SHA-256。原始正文审计表保留原样，校验程序通过迁移清单解析现路径。
 
+迁移后发现事实错误时，可以根据直接来源修正正文。不要重写 `migration-report.json` 的原始正文哈希；在 `docs/v3/reports/content-amendments.json` 为对应原路径记录原哈希、修订后正文哈希、核对日期、原因与来源 URL。校验逐条核对原迁移哈希与当前修订哈希；未登记的正文变化、未知路径、重复登记和修订后再次变化均会失败。研究补充标记之后的新增资料仍按原有规则维护。登记具体修订只表示变更可追溯，不代表该词条全部字段已经核实。
+
 17 个既有唱片存在各语言 `releaseType` 不一致，目录暂按中文主记录统一，记录在 `src/data/content-folder-overrides.json`；后续核实事实后再统一分类。旧 `artists/`、`albums/` 已无正式词条，也不得再按旧目录模板新建内容。旧模板已经删除，需要追溯时查看 Git 历史。

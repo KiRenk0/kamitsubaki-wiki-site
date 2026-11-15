@@ -1,23 +1,19 @@
 ---
-schemaVersion: 2
-id: "release-presentations"
-entityType: "live-event"
-name: "新作品发布纪念会"
-romanizedName: "Release Presentations"
-eventType: "event"
-dateRange:
-  start: "2019-09-11"
-venue:
-  name: "YouTube 官方直播间"
-  isVirtual: true
-headliners:
-  - "kaf"
-organizer: "kamitsubaki-studio"
-contentStatus: published
-locale: "zh"
-summary: "在重要录音室专辑或重大企划节点面向全球观测者举办的新作解读与特别披露线上发布会。"
+"schemaVersion": 2
+"id": "release-presentations"
+"entityType": "live-event"
+"name": "发行纪念发布会"
+"romanizedName": "Release Presentations"
+"eventType": "event"
+"headliners": []
+"contentStatus": "stub"
+"locale": "zh"
+"summary": "活动类别占位；尚未确认具体场次、日期与参加者。"
+"tags":
+  - "classification-map-placeholder"
+  - "identity-unverified"
+"seo":
+  "noindex": true
 ---
 
-## 概述
-
-**新作品发布纪念会**是神椿旗下艺人在重要实体专辑发售（如《観測》《魔法》《狂想》《SUMMIT》等）或多媒体企划官宣时举办的官方线上直播特别节目。活动中艺人与制作人共同梳理创作幕后、首发全长 MV 并开示未来演艺路线。
+该活动类别尚无已核实的具体场次。请以可确认活动身份的主办方公告补充日期、参加者与地点。

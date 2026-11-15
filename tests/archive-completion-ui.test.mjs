@@ -98,6 +98,17 @@ test('live comparison restores shared IDs on load and clears the matrix when his
  });
 });
 
+test('live detail retains credited guests in sourced titles while linking the exact work',async()=>{
+ await domTest('<section data-module="live-mode"><script data-archive-copy></script><p data-archive-status></p><div data-archive-results></div><button data-archive-more></button><aside data-archive-detail></aside></section>',async(root)=>{
+  const snapshot=archiveFixture();snapshot.entities.find(row=>row.id==='live-a').facts.setlist=[{number:'BD 21',title:'Song A with Guest',songId:'song-a'},{number:'BD 27',title:'Unresolved live version'}];
+  history.replaceState({},'', '/zh/explore/live-mode/?entry=live-a');root.querySelector('[data-archive-copy]').textContent=JSON.stringify(archiveFeatureCopy('zh'));
+  await initializeArchiveWorkspace(root,{loadSnapshot:async()=>snapshot,owner:async()=>null,request:async()=>({witnesses:[]})});
+  const rows=root.querySelectorAll('[data-archive-detail] ol li');assert.equal(rows.length,2);
+  assert.equal(rows[0].querySelector('a').textContent,'Song A with Guest');assert.equal(new URL(rows[0].querySelector('a').href).pathname,'/zh/database/song-a/');
+  assert.match(rows[0].textContent,/BD 21/);assert.equal(rows[1].querySelector('a'),null);
+ });
+});
+
 test('logout removes a private pilgrimage and a delayed owner read cannot restore it',async()=>{
  await domTest('<section data-module="atlas"><script data-archive-copy></script><p data-archive-status></p><div data-archive-results></div><button data-archive-more></button><aside data-archive-detail></aside><div data-atlas-map></div><ol data-pilgrimage-route></ol><a data-route-directions></a></section>',async(root,w)=>{
   let who='alice',block=false,release;const pending=new Promise(resolve=>release=resolve),snapshot=archiveFixture();snapshot.entities.find(row=>row.id==='live-a').facts.venue={name:'Hall',isVirtual:false};

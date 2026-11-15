@@ -17,6 +17,7 @@
 .fan-archive h3{font:500 17px/1.5 var(--font-sans);margin:0 0 8px}
 .fan-archive a{color:inherit;text-underline-offset:4px}
 .archive-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;padding:22px 0;border-bottom:1px solid var(--workspace-line)}
+.archive-row>button{align-self:start}
 .archive-row small,.archive-row p{color:var(--archive-muted);margin:4px 0}
 .archive-row h2{font:500 19px/1.5 var(--font-sans);margin:6px 0}
 .archive-row__actions{display:flex;align-items:start;gap:8px;flex-wrap:wrap;max-width:220px}

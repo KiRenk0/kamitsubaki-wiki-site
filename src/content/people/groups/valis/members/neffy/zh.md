@@ -1,46 +1,61 @@
 ---
-schemaVersion: 2
-id: neffy
-entityType: person
-name: NEFFY
-romanizedName: NEFFY
-roles:
-  - vocalist
-lifecycle:
-  activity: active
-relations:
-  - type: member-of
-    target: valis
-contentStatus: published
-locale: zh
-summary: 虚拟舞团 VALIS 中最娇小的恶作剧精灵，拥有彩虹般百变宽广的歌喉，具备驾驭高难度复杂曲目的顶尖唱功。
+"schemaVersion": 2
+"id": "neffy"
+"entityType": "person"
+"name": "NEFFY"
+"romanizedName": "NEFFY"
+"roles":
+  - "vocalist"
+"lifecycle":
+  "activity": "active"
+"relations":
+  - "type": "member-of"
+    "target": "valis"
+"contentStatus": "published"
+"locale": "zh"
+"summary": "以 VALIS 成员身份开展演出，2026 年 2 月 6 日开始个人活动的歌手 NEFFY。"
+"sources":
+  - "id": "valis-historical-profiles"
+    "title": "VALIS: historical six-member character profiles"
+    "url": "https://valis.kamitsubaki.jp/whats/"
+    "type": "official"
+  - "id": "valis-solo-announcement-2026"
+    "title": "VALIS management announcement via director SOUGHT (2026-02-06)"
+    "url": "https://twitter.com/SOUGHT_VALIS/status/2019697641416987076"
+    "type": "official"
+  - "id": "piedpiper-reorganization-2026"
+    "title": "PIEDPIPER: KAMITSUBAKI FES 26 and studio reorganization"
+    "url": "https://note.com/futashika/n/n4fdca2f7b788"
+    "type": "official"
+    "publisher": "PIEDPIPER"
+    "publishedAt": "2026-09-05"
+"affiliations":
+  - "organization": "thinkr"
+    "type": "agent"
+    "current": true
+"evidence":
+  - "id": "documented-solo-activity"
+    "field": "lifecycle.activity"
+    "sourceIds":
+      - "valis-solo-announcement-2026"
+      - "piedpiper-reorganization-2026"
+    "checkedAt": "2026-11-15"
+    "status": "reviewed"
+    "note": "The management notice starts the four named members’ personal activity on 2026-02-06. The
+      September producer statement confirms continued individual activity. This is not their
+      original career start date."
+  - "id": "documented-agency-form"
+    "field": "affiliations"
+    "sourceIds":
+      - "piedpiper-reorganization-2026"
+    "checkedAt": "2026-11-15"
+    "status": "reviewed"
+    "note": "The producer distinguishes the group’s KAMITSUBAKI affiliation from members’ freelance
+      personal activity with THINKR agency contracts. No contract start date is inferred."
 ---
 
 ## 概述与角色设定
 
-**NEFFY**（ネフィ）是虚拟演艺舞团 [VALIS（瓦利斯）](/zh/database/artists/groups/valis) 的核心成员之一，被誉为“马戏团的恶作剧精灵”。
+**NEFFY** 曾以 VALIS 成员身份参与组合演出。运营于 2026 年 2 月 6 日宣布 CHINO、NEFFY、RARA、VITTE 四位成员开始个人活动。2026 年 9 月的制作人说明将成员个人活动列为自由职业，并与 THINKR 采用代理合作形式。
 
-> **自述台词**：  
-> ***『NEFFY。打招呼→“にゃんはお”（喵你好）。被生物们包围着活着。巨能吃辣所以是无敌的。☞Follow me✩*¨☜』***
-
-虽然身高为全队最娇小的 152cm，但在关键时刻总能展现出超乎常人的凝聚力与决断力，偶尔会给出出人意料但极具洞察力的奇妙建议。她拥有如彩虹般色彩斑斓、跨度极大的百变歌喉，无论是高速吐字、复杂转音还是高难度跨音阶曲目，都能随心所欲游刃有余地驾驭。
-
----
-
-## 档案与人设特征
-
-| 属性项目 | 官方详细设定 |
-| :--- | :--- |
-| **团队定位** | 恶作剧精灵、主唱、高难度旋律攻坚 |
-| **星座** | 天蝎座 |
-| **身高** | 152 cm（全队最娇小） |
-| **代表特征** | 彩虹多变歌喉、口癖“にゃんはお”、无敌嗜辣体质、动物亲和力 |
-| **喜欢的事物** | 极度辛辣的食物、小动物、抹茶甜点 |
-| **讨厌的事物** | 酷暑炎热的天气、油脂过多的鱼肉 |
-| **所属企划** | [SINSEKAI RECORD](/zh/database/studios/sinsekai-record) / [VALIS](/zh/database/artists/groups/valis) |
-
----
-
-## 演艺与舞台表现
-
-在 VALIS 的现场与音乐制作中，NEFFY 常承担爆发性华彩唱段。在动画剧集《私の涙は流れない》第 6 话「ネフィ&ニナの場合」中，细腻揭示了其外表玩闹下敏锐而深沉的内心世界；2022 年秋季与成员 RARA 联手出战「踊コレ2022秋」，投稿翻唱并跳舞作品《いーあるふぁんくらぶ》，以超高难度的二重唱与双人同步编舞引爆圈层讨论。
+历史角色设定可参阅[早期官方人物页](https://valis.kamitsubaki.jp/whats/)。该页面保留六人时期资料，不用于判断当前活动或所属。

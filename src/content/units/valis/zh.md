@@ -55,7 +55,21 @@ sources:
     title: VALISに関する重要なお知らせ
     url: https://kamitsubaki.jp/news/2025/06/11/7583/
     type: official
-summary: "在虚拟形象与\"起源\"真实形态之间穿梭往来的五人虚拟少女团体，以二元性为核心持续展开活动。"
+  - id: nina-retirement-2024
+    title: "VALIS: NINA graduation and end of artist activity (2024-03-08)"
+    url: https://kamitsubaki.jp/news/2024/03/08/3215/
+    type: official
+  - id: valis-solo-announcement-2026
+    title: VALIS management announcement via director SOUGHT (2026-02-06)
+    url: https://twitter.com/SOUGHT_VALIS/status/2019697641416987076
+    type: official
+  - id: piedpiper-reorganization-2026
+    title: "PIEDPIPER: KAMITSUBAKI FES 26 and studio reorganization"
+    url: https://note.com/futashika/n/n4fdca2f7b788
+    type: official
+    publisher: PIEDPIPER
+    publishedAt: "2026-09-05"
+summary: "以虚拟形象与真实 Origin 形态演出的虚拟少女组合；2025 年 12 月起团体无期限休止，成员个人活动另行记录。"
 evidence:
   - id: group-hiatus
     field: lifecycle.activity
@@ -63,14 +77,23 @@ evidence:
       - official-valis-hiatus
     checkedAt: "2026-11-15"
     status: reviewed
-    note: The group is on indefinite hiatus following the December 2025 final live.
-      Individual member activity is not established by this notice.
+    note: The group is on indefinite hiatus following the December 2025 final live. Individual member
+      activity is not established by this notice.
+  - id: group-and-members-distinction
+    field: affiliations
+    sourceIds:
+      - piedpiper-reorganization-2026
+    checkedAt: "2026-11-15"
+    status: reviewed
+    note: The producer states that VALIS remains affiliated with KAMITSUBAKI while members’ solo
+      activity uses freelance and THINKR agency arrangements. Do not apply one status to every
+      member.
 ---
 ## 概述
 
-VALIS（ヴァリス）是 [SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio) 旗下的六人虚拟少女组合，成员由 CHINO、MYU、NEFFY、NINA、RARA、VITTE 组成。团体以“在虚拟与现实之间旅行”为概念，同时以 avatar（虚拟形象）和 origin（真实形态）两种形态展开活动，形成独特的二元表达方式。
+**VALIS**（ヴァリス）以虚拟 avatar 与真实 origin 两种形态演出，早期成员为 CHINO、MYU、NEFFY、NINA、RARA、VITTE。NINA 于 2024 年 3 月 8 日毕业并结束艺人活动；组合在 2025 年 12 月最终公演后无期限休止。
 
-角色视觉设计由插画师ねこ助（Nekosuke）担当，整体风格兼具少女感与未来感。作为 [SINSEKAI RECORD](/zh/projects/archive/sinsekai-studio) 体系中较具代表性的组合之一，VALIS 在音乐作品和现场演出两个层面都保持着较高的活跃度，定期举办 ONE-MAN LIVE 等专场活动。
+2026 年 2 月，运营宣布 CHINO、NEFFY、RARA、VITTE 开始个人活动，MYU 于 2 月 13 日从项目毕业。制作人于同年 9 月说明：VALIS 团体仍属神椿，成员个人活动采用自由职业与 THINKR 代理合作形式。后文的组合介绍、人物设定与演出记录按历史资料阅读。
 
 ## 角色与创作定位
 
