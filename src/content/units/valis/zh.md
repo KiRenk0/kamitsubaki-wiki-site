@@ -61,7 +61,7 @@ evidence:
     field: lifecycle.activity
     sourceIds:
       - official-valis-hiatus
-    checkedAt: 2026-11-15
+    checkedAt: "2026-11-15"
     status: reviewed
     note: The group is on indefinite hiatus following the December 2025 final live.
       Individual member activity is not established by this notice.

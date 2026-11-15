@@ -22,7 +22,7 @@ evidence:
     field: eventType
     sourceIds:
       - official-phenomenon-2022
-    checkedAt: 2026-11-15
+    checkedAt: "2026-11-15"
     status: reviewed
     note: Official event listing identifies this as the first V.W.P ONE-MAN LIVE.
 liveInfo:

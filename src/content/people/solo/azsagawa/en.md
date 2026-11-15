@@ -26,7 +26,7 @@ evidence:
     field: lifecycle.startedAt
     sourceIds:
       - official-toys-biography
-    checkedAt: 2026-11-15
+    checkedAt: "2026-11-15"
     status: reviewed
     note: Music activity began in April 2020. The later label affiliation date is
       not the start of musical activity.
